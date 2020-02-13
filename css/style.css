@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400i|Poppins:400,600,700&display=swap');
+
+/*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Serif', serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    width: 120px;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.purchase{
+    flex-basis: 45%;
+    text-align: right;
+
+}
+
+.purchase a{
+    font-size: 16px;
+    padding: 15px 18px;
+    background-color: #ff6162;
+    color: #ffffff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.purchase a:hover{
+    background-color: #ba4243;
+}
+
+h3{
+    font-size: 30px;
+    color: #292640;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #72808E;
+    padding: 10px 400px;
+}
+
+/*navbar style start*/
+
+.navbar{
+    position:sticky;
+    top: 0;
+    background-color: #ffffffcc;
+}
+
+.navbar nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.navbar nav .logo{
+    flex-basis: 15%;
+}
+
+.navbar nav .logo a{}
+
+.navbar nav .logo .logo-link img{}
+
+.navbar nav .menu{
+    flex-basis: 40%;
+}
+
+.navbar nav .menu ol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar nav .menu ol li{
+    padding: 0 15px;
+}
+
+.navbar nav .menu ol li a{
+    font-size: 15px;
+    color: #292640;
+    font-weight: 600;
+    line-height: 1.25;
+    text-transform: capitalize;
+}
+
+.navbar nav .menu ol li a:hover{
+    color: #ff6162;
+}
+
+/*navbar style end*/
+
+/*header style start*/
+
+.header{}
+
+.header header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.header header .content{
+    flex-basis: 50%;
+}
+
+.header header .content h1{
+    padding-right: 100px;
+    font-size: 45px;
+}
+
+.header header .content p{
+    padding-right: 50px;
+    color: #464A4C;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.header header .content a{
+    color: #464A4C;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.header header .content a i:hover{
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+.header header .img{
+    flex-basis: 50%;
+}
+
+.header header .img img{
+    width: 1080px;
+}
+/*header style end*/
+
+/*templete style start*/
+
+.templete-showcase{}
+
+.templete-showcase article{
+    text-align: center;
+    padding: 200px 50px 50px 50px;
+}
+
+.templete-showcase article .article-content{
+}
+
+.templete-showcase article .artilce-image-showcase{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image{
+    flex-basis: 25%;
+    padding: 20px;
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image .img-link{
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image .img-link img{
+    width: 720px;
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image .img-link div{
+    overflow: hidden;
+    box-shadow: 0px 0px 12px #0000009e;
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image .img-link img:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.templete-showcase article .artilce-image-showcase .artilce-image .img-name{
+    color: #464A4C;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+    padding: 15px;
+}
+
+
+/*templete style end*/
+
+/*line style start*/
+
+.line{
+    text-align: center;
+    border-left: 2px solid #464a4c7a;
+    width: 50px;
+    height: 70px;
+    margin: 100px 780px;
+}
+
+/*line style start*/
+
+/*feature design start*/
+
+.feature{}
+
+.feature article{
+    text-align: center;
+}
+
+.feature article .feature-content{}
+
+.feature article .feature-content h3{
+    color: #292640;
+}
+
+.feature article .feature-content h5{}
+
+.feature article .feature-showcase{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 80px 0;
+}
+
+.feature article .feature-showcase .feature-details{
+    padding: 15px;
+    flex-basis: 29%;
+    margin: 20px;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.feature article .feature-showcase .feature-details a{}
+
+.feature article .feature-showcase .feature-details .icon-box{
+    width: 65px;
+    margin: 0 auto;
+    height: 65px;
+}
+.feature article .feature-showcase .feature-details .icon{
+    background-color: #ffffff;
+    border-radius: 550px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.feature article .feature-showcase .feature-details:hover .icon{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.feature article .feature-showcase .feature-details .icon i{
+    font-size: 30px;
+    color: #FF6162;
+    margin-top: 15px;
+}
+
+.feature article .feature-showcase .feature-details:hover .icon i{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+.feature article .feature-showcase .feature-details h2{
+    color: #464A4C;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.feature article .feature-showcase .feature-details p{
+    color: #464A4C;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+/*feature design end*/
+
+/*footer design start*/
+
+.footer{
+    background-color: #292640;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.footer footer{}
+
+.footer footer .content{}
+
+.footer footer .content .footer-slogan{
+    text-align: center;
+    padding: 50px 450px 0 450px;
+}
+
+.footer footer .content .footer-slogan h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.footer footer .content .purchase{
+    text-align: center;
+    padding: 50px;
+}
+
+.purchase a{}
+
+.footer footer .content .footer-logo{}
+
+.footer footer .content .footer-logo a{}
+
+.footer footer .content .footer-logo a img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.footer footer .content .footer-logo a img:hover{
+    width: 105px;
+    transition-duration: 0.3s;
+}
+/*footer design end*/
